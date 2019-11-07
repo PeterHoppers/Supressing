@@ -1,0 +1,101 @@
+#thoughts {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: calc(100% - 10px);
+    height: calc(50% - 5px);
+    /*overflow: hidden*/
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    background-color: Red;
+}
+
+#textDisplay
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: Yellow;
+    height: calc(50% - 5px);
+    width: calc(100% - 10px);
+}
+
+#brain
+{
+    position: absolute;
+    height: calc(100% - 5px);
+    width: calc(80% - 10px);
+    background-color: Blue;
+    bottom: 2.5px;    
+}
+
+#focused
+{
+    position: absolute;
+    height: calc(100% - 5px);
+    width: calc(20% - 10px);
+    background-color: Green;
+    right: 0px;
+    bottom: 2.5px;
+}
+
+#story
+{
+    position: absolute;
+    height: calc(100% - 5px);
+    width: 50%;    
+    background-color: Orange;
+    right: 25%;
+}
+
+#currentTopic
+{
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.spawner
+{
+  position: absolute;
+  display: none;
+  /*border: 0px solid black;*/  
+  overflow: hidden;
+  resize: none;
+  text-align: center;  
+}
+
+#spawner1
+{   
+   top: 10%;
+   left: 20%;
+   transform: rotate(-4deg);
+}
+
+#spawner2
+{  
+  top: 60%; 
+  left: 70%;
+  transform: rotate(-24deg); 
+}
+
+#spawner3
+{
+  top: 40%;
+  left: 10%;
+  transform: rotate(5deg);
+}
+
+#spawner4
+{
+  top: 60%;
+  left: 1%;
+  transfrom: rotate(-3deg);
+}
+
+#spawner5
+{
+  top: 50%;
+  left: 10%;
+}
